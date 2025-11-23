@@ -1,0 +1,6 @@
+numpy
+tf-keras
+tensorflow
+pandas
+deepface
+chromadb
