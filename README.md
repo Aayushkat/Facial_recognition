@@ -6,10 +6,17 @@ This a high speed facial recogniton and verifications system
 * **Python 3.11.0**: Main language
 * **DeepFace 0.0.95**: Handles facial detection and vector encoding
 * **Chromadb 1.3.5**: Store and search the facial embeddings
-* **Tensorflow 2.20.0 and Keras 2.20.1**:Core deep learning backend 
+* **Tensorflow 2.20.0 and Keras 2.20.1**:Core deep learning backend  for the deepface
 
-## Getting started
+# Getting started
 
-### Prerequisite
-#### For windows user
-    1. Make sure you have downloaded the **Microsoft Visual C++ Redistributable (x64)** it is used for tnsorflow and keras
+## Prerequisite
+ ### **For Windows user**
+1. Make sure you have downloaded the **Microsoft Visual C++ Redistributable (x64)** it is for tensorflow and keras
+
+### Installation Steps
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Aayushkat/Facial_recognition.git
+   
