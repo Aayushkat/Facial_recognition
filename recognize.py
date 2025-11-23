@@ -27,15 +27,15 @@ def identify_face(img_path):
         target_embedding_objs = DeepFace.represent(#target_embedding stores the list of dictionaries
             img_path=img_path,
             model_name=MODEL_NAME,
-            enforce_detection=True
+            enforce_detection=True #here this paramter is true,therefore this will search the faces in the test image and if unable to find any face it return the valie error exception
         )
-        # DeepFace returns a list (in case of multiple faces), we take the first
+        # DeepFace returns a list (in case of multiple faces), we take the first element which is a facial embeeidng dictionary
         target_embedding = target_embedding_objs[0]["embedding"]
 
         # 2. Query ChromaDB for the 1 nearest neighbor
         results = collection.query(
             query_embeddings=[target_embedding],
-            n_results=1
+            n_results=1 #THis parameter determines how many results should query return 
         )
         
         # 3. Check if we got any result at all
