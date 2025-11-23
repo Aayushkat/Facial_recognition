@@ -24,7 +24,7 @@ def identify_face(img_path):
     print(f"Scanning {img_path}...")
     try:
         # 1. Generate vector for the unknown face
-        target_embedding_objs = DeepFace.represent(
+        target_embedding_objs = DeepFace.represent(#target_embedding stores the list of dictionaries
             img_path=img_path,
             model_name=MODEL_NAME,
             enforce_detection=True
