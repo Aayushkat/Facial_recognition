@@ -25,9 +25,9 @@ and it prevent us brute forcing the vectors.
 _It is a ANN (approximate nearest neighbour) , ANN use cluster, key hashing ,quatization methods to store the vectors  
 
 _Here we are passing the metadata . it is not necassry to mention the metadata in the
-arguement of the create collection
+arguement of the create_collection
 
-_and the cosine is the *distace metric* here , there are two type also another metric like euclidean distance called L2
+_and the cosine is the *distace metric* here , there is a alternative to cosine, it is called euclidean distance called l2.
 
 
 _if HSNW is the engineer to build the houses in the neighbourhod then the cosine and the euclidean distance are the distace measurinng unit
