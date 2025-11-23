@@ -46,7 +46,8 @@ def identify_face(img_path):
         match_name = results["metadatas"][0][0]["name"]
         distance = results["distances"][0][0]
 
-        # 5. Thresholding (Cosine Distance)
+        # 5. Thresholding (Cosine Distance) //This here basically determines how much distacne from the nearest vector is acceptable to announce them as a one person
+        
         # 0.0 = Perfect Match
         # 0.4 = Good Match
         # > 0.5 = Probably different person
