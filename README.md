@@ -19,4 +19,5 @@ This a high speed facial recogniton and verifications system
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/Aayushkat/Facial_recognition.git
+2. 
    
