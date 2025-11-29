@@ -48,7 +48,7 @@ This is a high-speed facial recognition and verification system that converts fa
 
 ---
 
-## 🛠️ Steps for Utilisation
+## Steps for Utilisation
 
 There are two main scripts: **Ingestion** (to build the database) and **Recognition** (to search the database).
 
